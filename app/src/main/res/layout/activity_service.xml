@@ -6,4 +6,89 @@
     android:layout_height="match_parent"
     tools:context=".ServiceActivity">
 
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/layout2"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="parent">
+
+
+        <Button
+            android:id="@+id/finance_button"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="47dp"
+            android:background="@drawable/roundbutton"
+            android:text="Finance" />
+
+        <Button
+            android:id="@+id/registration_button"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/roundbutton"
+            android:text="Registration" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintBottom_toTopOf="@+id/layout3"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout1">
+
+        <Button
+            android:id="@+id/admission_button"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="47dp"
+            android:background="@drawable/roundbutton"
+            android:text="Admissions" />
+
+        <Button
+            android:id="@+id/documentation_button"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/roundbutton"
+            android:text="Documentation" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout2">
+
+        <Button
+            android:id="@+id/studentaffairs_button"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="47dp"
+            android:background="@drawable/roundbutton"
+            android:text="student Affairs" />
+
+        <Button
+            android:id="@+id/unassigned"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/roundbutton"
+            android:text="Unassigned" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
