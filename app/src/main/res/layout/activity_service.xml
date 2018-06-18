@@ -24,15 +24,17 @@
             android:layout_height="130dp"
             android:layout_marginStart="47dp"
             android:background="@drawable/roundbutton"
-            android:text="Finance" />
-
+            android:text="Finance"
+            android:textColor="@color/white"/>
         <Button
-            android:id="@+id/registration_button"
+            android:id="@+id/admission_button"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="47dp"
             android:background="@drawable/roundbutton"
-            android:text="Registration" />
+            android:text="Admissions"
+            android:textColor="@color/white" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -42,26 +44,23 @@
         android:layout_marginBottom="20dp"
         android:orientation="horizontal"
 
+
         app:layout_constraintBottom_toTopOf="@+id/layout3"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layout1">
 
         <Button
-            android:id="@+id/admission_button"
+            android:id="@+id/registration_button"
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:layout_marginStart="47dp"
             android:background="@drawable/roundbutton"
-            android:text="Admissions" />
+            android:text="Registration"
+            android:textColor="@color/white" />
 
-        <Button
-            android:id="@+id/documentation_button"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
-            android:layout_marginStart="30dp"
-            android:background="@drawable/roundbutton"
-            android:text="Documentation" />
+
+
 
     </LinearLayout>
 
@@ -72,6 +71,7 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layout2">
 
@@ -81,14 +81,18 @@
             android:layout_height="130dp"
             android:layout_marginStart="47dp"
             android:background="@drawable/roundbutton"
-            android:text="student Affairs" />
+            android:text="student Affairs"
+            android:textColor="@color/white" />
 
         <Button
-            android:id="@+id/unassigned"
+            android:id="@+id/documentation_button"
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:layout_marginStart="30dp"
             android:background="@drawable/roundbutton"
-            android:text="Unassigned" />
+            android:text="Documentation"
+            android:textColor="@color/white" />
+
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -30,6 +30,8 @@ public class HomeFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
         Button studentBtn = (Button) rootView.findViewById(R.id.student_button);
+        Button staffBtn = (Button) rootView.findViewById(R.id.staff_button);
+
 
         studentBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +39,7 @@ public class HomeFragment extends Fragment {
                 startActivity(new Intent( getActivity(), LoginActivity.class));
             }
         });
+
         return rootView ;
     }
 

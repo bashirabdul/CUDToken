@@ -14,7 +14,8 @@
         android:layout_marginStart="45dp"
         android:layout_marginTop="154dp"
         android:background="@drawable/roundbutton"
-        android:text="Student" />
+        android:text="Student"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/staff_button"
@@ -24,7 +25,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="42dp"
         android:background="@drawable/roundbutton"
-        android:text="Staff" />
+        android:text="Staff"
+        android:textColor="@color/DarkRed"/>
 
     <Button
         android:id="@+id/guest_button"
@@ -34,7 +36,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="97dp"
         android:background="@drawable/roundbutton"
-        android:text="Guest" />
+        android:text="Guest"
+        android:textColor="@color/white"/>
 
 
 

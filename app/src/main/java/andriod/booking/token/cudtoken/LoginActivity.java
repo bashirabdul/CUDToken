@@ -195,10 +195,6 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
         //TODO: Replace this with your own logic
         return password.length() > 4;
     }
-
-    /**
-     * Shows the progress UI and hides the login form.
-     */
     @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR2)
     private void showProgress(final boolean show) {
         // On Honeycomb MR2 we have the ViewPropertyAnimator APIs, which allow
